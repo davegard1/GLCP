@@ -13,7 +13,7 @@ The cartpole_demo.cpp shows a basic linear trajectory problem:
 
 Move the cart from [-1., 0., 0., 0.] to [10., 0.0 , 0.0, 0.0]
 <p align="center">
-    <img src="cartpole_system.png" height="150">
+    <img src="cartpole_system.png" height="500">
 </p>
 
 
@@ -21,10 +21,10 @@ The demo executable shows how to define the weighting Q & R matricies for your L
 
 Results of the non-noisy system
 <p align="center">
-    <img src="lqr_res.png" height="150">
+    <img src="lqr_res.png" height="500">
 </p>
 
 Results of the noisy system
 <p align="center">
-    <img src="lqg_res.png" height="150">
+    <img src="lqg_res.png" height="500">
 </p>
