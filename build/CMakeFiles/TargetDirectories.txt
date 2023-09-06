@@ -1,0 +1,4 @@
+/home/davegard/projects/GLCP/build/CMakeFiles/rebuild_cache.dir
+/home/davegard/projects/GLCP/build/CMakeFiles/edit_cache.dir
+/home/davegard/projects/GLCP/build/CMakeFiles/demo.dir
+/home/davegard/projects/GLCP/build/CMakeFiles/GLCP.dir

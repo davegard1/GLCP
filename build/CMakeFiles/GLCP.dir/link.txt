@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGLCP.a  CMakeFiles/GLCP.dir/src/riccati_solver.cpp.o CMakeFiles/GLCP.dir/src/controllers.cpp.o CMakeFiles/GLCP.dir/src/observers.cpp.o CMakeFiles/GLCP.dir/src/eom.cpp.o CMakeFiles/GLCP.dir/src/integration.cpp.o CMakeFiles/GLCP.dir/src/system.cpp.o CMakeFiles/GLCP.dir/src/steppers.cpp.o
+/usr/bin/ranlib libGLCP.a
