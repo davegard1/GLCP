@@ -24,7 +24,16 @@ Results of the non-noisy system
     <img src="lqr_res.png" height="500">
 </p>
 
-Results of the noisy system
+Results of the noisy system. Note that in the displayed demo the estimate of x0 was purposly chose to have a 0.1 displacement on theta 
 <p align="center">
     <img src="lqg_res.png" height="500">
 </p>
+
+Note that this is not a complete program, noteable upgrades include:
+- Creating and using GLCP namespace
+- Discrete time formulation
+- Applying the control inputs in the non-linear equations of motion when use_linear = false
+    - Currently the rates are calculated non-linearly xdot = f(x,u), and u set to zero, but then control is applied linearly xdot += -B * K * x. Instead of u = - K * x -> xdot = f(x,u)
+- Functionizing the integration templates to make them more modular
+- Creating a base System class that CartpoleSystem inhierets from, add/disable LQR and Kalman Filter can be base methods
+- Adding const to all functions/methods that can be const. I only really checked the variable arguments.  

@@ -104,10 +104,11 @@ int main()
     // Integrate with non-linear dynamics
     cartpole_system.set_linear(true);
 
-
+    // Initialize x0 for LQG. vector of 8 since 4 elements of x and four elements for xhat
     Eigen::VectorXd x02(8);
     x02 <<  -1.0 , 0.0, 0.0, 0., -1.0, 0.0, 0.1, 0.0;
 
+    // Initialize xf
     Eigen::VectorXd xf2(8);
 
 
