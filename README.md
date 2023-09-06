@@ -12,12 +12,19 @@ Noteable features include:
 The cartpole_demo.cpp shows a basic linear trajectory problem: 
 
 Move the cart from [-1., 0., 0., 0.] to [10., 0.0 , 0.0, 0.0]
-!(/cartpole_system.png)
+<p align="center">
+    <img src="cartpole_system.png" height="150">
+</p>
+
 
 The demo executable shows how to define the weighting Q & R matricies for your LQR controller and how to specify disturbance and noise covariances.
 
 Results of the non-noisy system
-!(/lqr_res.png)
+<p align="center">
+    <img src="lqr_res.png" height="150">
+</p>
 
 Results of the noisy system
-!(/lqg_res.png)
+<p align="center">
+    <img src="lqg_res.png" height="150">
+</p>
